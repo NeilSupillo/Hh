@@ -30,7 +30,7 @@ background-color: saddlebrown ;
   padding : .8rem;
 }
 .card{
-  scroll-margin-top: 4rem;
+  scroll-margin-top: 3rem;
   margin: 1rem 0;
   padding: rem 0;
   height: auto;
@@ -177,6 +177,7 @@ font-family: "Times New Roman", Times, serif;
   .card{
     width: 300px;
     height: auto;
+    scroll-margin-top: 5rem;
   }
   .crew{
     padding: 3rem;
@@ -194,31 +195,36 @@ font-family: "Times New Roman", Times, serif;
 /* || Medium */
 @media (min-width: 738px) and (max-width: 979px) {
  .card{
-   width: 350px;
+   width: 330px;
     height: auto;
-   
- }
- #luffy{
-   margin: auto;
-   background-color: red;
- }
- .crew{
-   flex-flow: row wrap;
-   justify-content: space-evenly;
-   padding: 2rem;
   
  }
+ .crew .card{
+  padding-bottom:  1rem;
+ }
+ #luffy{
+   margin: 1rem auto 0;
+ }
+ .crew{
+   display: grid;
+   grid-template-columns: 350px auto;
+   padding: 4rem;
+   gap: 1rem;
+  
+ }
+   .header__nav{
+    display: none;
+    
+  }
+ 
 }
 
 /* || Large */
 @media (min-width: 980px) {
   .crew{
-  flex-flow: row wrap;
-    justify-content: space-around;
-    
-    
-    
-    padding: 5rem;
+   display: grid;
+   grid-template-columns: 400px 400px;
+    padding: 1rem;
     
     }
     .card{
@@ -236,7 +242,7 @@ font-family: "Times New Roman", Times, serif;
     
   }
   
- 
+
     
   .card__figcaption{
         font-size: 33px;
@@ -250,13 +256,18 @@ font-family: "Times New Roman", Times, serif;
 #luffy{
  margin: 2rem auto;
 }
-#jimbe{
-  justify-items: flex-start;
-}
+
 #franky{
   height: 590px;
 }
 
 }
 
-
+@media (min-width: 1366px) {
+    .crew{
+   
+   grid-template-columns: 400px 400px 400px;
+    
+    
+    }
+}
