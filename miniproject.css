@@ -49,6 +49,7 @@ font-weight: bolder;
    text-align: center;
    z-index: 1;
 color: black;
+width: 100vw;
 }
 
 img{
