@@ -10,7 +10,6 @@ html{
 
 body{
 background-color: saddlebrown ;
-   
   min-height: 100vh;
    }
    
@@ -74,6 +73,7 @@ padding: .3rem;
 }
  
 .footer{
+  position: fixed;
   bottom: 0; 
 }
 .header__nav{ 
