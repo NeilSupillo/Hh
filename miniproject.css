@@ -9,6 +9,7 @@ html{
 
 
 body{
+  position: reltive;
 background-color: saddlebrown ;
   min-height: 100vh;
    }
@@ -23,7 +24,7 @@ background-color: saddlebrown ;
 .hero{
   display: flex;
   justify-content: center;
- 
+ margin-top: 3rem;
   background-color: bue;
   padding : .8rem;
 }
@@ -44,11 +45,11 @@ background-color: saddlebrown ;
 }
 .header, .footer{
 font-weight: bolder;
- 
    text-align: center;
    z-index: 1;
 color: black;
 width: 100vw;
+ position: fixed;
 }
 
 img{
@@ -62,7 +63,6 @@ img{
 
 .header{
   top: 0;
-  position: sticky;
 }
 
 .header__title, 
@@ -74,7 +74,7 @@ padding: .3rem;
 }
  
 .footer{
-  position: fixed;
+  
   bottom: 0; 
 }
 .header__nav{ 
