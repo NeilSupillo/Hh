@@ -49,7 +49,7 @@ font-weight: bolder;
    z-index: 1;
 color: black;
 width: 100vw;
- position: fixed;
+ position: sticky;
 }
 
 img{
