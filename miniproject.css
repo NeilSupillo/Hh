@@ -97,7 +97,7 @@ img {
 }
 
 .card__posternote {
-  font-size: 9px;
+  font-size: 7px;
   transform: scaleY(0.7);
   width: 65%;
   background-color: orage;
@@ -180,7 +180,7 @@ img {
     scroll-margin-top: 5rem;
   }
   .card__marine {
-    padding-top: 5px;
+    padding-top: 2px;
   }
   .crew {
     flex-flow: row wrap;
@@ -191,6 +191,9 @@ img {
 
   #luffy {
     margin: 2rem auto;
+  }
+  .header__nav::-webkit-scrollbar {
+    display: none;
   }
 }
 
@@ -215,9 +218,11 @@ img {
     padding: 4rem;
     gap: 1rem;
   }
-
-  .header__nav {
-    display: none;
+  .card__posternote {
+    font-size: 7px;
+  }
+  .card__marine {
+    padding-top: 0px;
   }
 }
 
@@ -229,6 +234,10 @@ img {
     padding: 1rem;
     margin-bottom: 5rem;
   }
+  .card__marine {
+    padding-bottom: 5px;
+    font-size: 1.8rem;
+  }
 
   .card {
     width: 400px;
@@ -238,10 +247,6 @@ img {
   .card img {
     width: 350px;
     height: 350px;
-  }
-
-  .header__nav {
-    display: none;
   }
 
   .card__figcaption {
@@ -259,6 +264,12 @@ img {
 
   #franky {
     height: 590px;
+  }
+  .header__nav {
+    padding: 0 3rem;
+  }
+  .card__posternote {
+    font-size: 9px;
   }
 }
 
