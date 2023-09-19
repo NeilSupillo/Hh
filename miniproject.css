@@ -11,7 +11,7 @@ html {
 :root {
   --bg-col1: saddlebrown;
   --bg-col2: chocolate;
-  --bg-col3: #D2B48C;
+  --bg-col3: #d2b48c;
 }
 
 body {
@@ -25,7 +25,7 @@ body {
   background-color: gren;
   display: flex;
   flex-flow: row wrap;
-  padding: .5rem;
+  padding: 0.5rem;
 }
 
 .hero {
@@ -55,7 +55,6 @@ body {
   z-index: 1;
   color: black;
   width: 100vw;
-
 }
 
 img {
@@ -77,7 +76,7 @@ img {
   font-size: max(25px, 3vh);
   background-color: var(--bg-col2);
   font-family: "Times New Roman", Times, serif;
-  padding: .3rem;
+  padding: 0.3rem;
 }
 
 .footer {
@@ -86,24 +85,22 @@ img {
 }
 
 .header__nav {
-  padding: 0 .4rem;
+  padding: 0 0.4rem;
   display: flex;
   width: 100vw;
   justify-content: space-between;
   overflow-x: auto;
-
 }
 
 .card__bounty::before {
-  content: '฿';
+  content: "฿";
 }
 
 .card__posternote {
-  font-size: 7px;
-  transform: scaleY(.7);
+  font-size: 9px;
+  transform: scaleY(0.7);
   width: 65%;
   background-color: orage;
-
 }
 
 .card__marine {
@@ -136,7 +133,6 @@ img {
 }
 
 .card__wanted {
-
   background-color: rled;
   font-family: "Times New Roman", Times, serif;
   margin: 7px 10px 0 10px;
@@ -153,8 +149,6 @@ img {
   background: yelow;
 }
 
-
-
 .header__nav a {
   border-radius: 3px;
   background: sandybrown;
@@ -166,23 +160,17 @@ img {
 
 .card__figcaption {
   background: rd;
-  transform: scale(.9, 1.7);
+  transform: scale(0.9, 1.7);
   line-height: 37px;
   font-size: 30px;
   font-weight: 650;
   font-family: "Times New Roman", Times, serif;
   text-align: center;
-
 }
-
-
-
 
 #jimbe .card__bounty {
   padding: 12px 0 0 0;
 }
-
-
 
 /* || SMALL */
 @media (min-width: 360px) and (max-width: 737px) {
@@ -191,7 +179,9 @@ img {
     height: auto;
     scroll-margin-top: 5rem;
   }
-
+  .card__marine {
+    padding-top: 5px;
+  }
   .crew {
     flex-flow: row wrap;
     justify-content: space-evenly;
@@ -201,7 +191,6 @@ img {
 
   #luffy {
     margin: 2rem auto;
-
   }
 }
 
@@ -210,7 +199,6 @@ img {
   .card {
     width: 330px;
     height: auto;
-
   }
 
   .crew .card {
@@ -226,14 +214,11 @@ img {
     grid-template-columns: 350px auto;
     padding: 4rem;
     gap: 1rem;
-
   }
 
   .header__nav {
     display: none;
-
   }
-
 }
 
 /* || Large */
@@ -243,7 +228,6 @@ img {
     grid-template-columns: 400px 400px;
     padding: 1rem;
     margin-bottom: 5rem;
-
   }
 
   .card {
@@ -256,17 +240,12 @@ img {
     height: 350px;
   }
 
-
   .header__nav {
     display: none;
-
   }
-
-
 
   .card__figcaption {
     font-size: 33px;
-
   }
 
   .card__doa {
@@ -281,14 +260,10 @@ img {
   #franky {
     height: 590px;
   }
-
 }
 
 @media (min-width: 1366px) {
   .crew {
-
     grid-template-columns: 400px 400px 400px;
-
-
   }
 }
