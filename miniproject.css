@@ -19,7 +19,9 @@ body {
   background-color: var(--bg-col1);
   min-height: 100vh;
 }
-
+body::-webkit-scrollbar {
+  display: none;
+}
 .crew {
   justify-content: space-around;
   background-color: gren;
@@ -54,7 +56,7 @@ body {
   text-align: center;
   z-index: 1;
   color: black;
-  width: 100vw;
+  width: 100%;
 }
 
 img {
@@ -87,7 +89,7 @@ img {
 .header__nav {
   padding: 0 0.4rem;
   display: flex;
-  width: 100vw;
+  width: 100%;
   justify-content: space-between;
   overflow-x: auto;
 }
