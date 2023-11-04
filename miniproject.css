@@ -138,7 +138,7 @@ img {
   background-color: rled;
   font-family: "Times New Roman", Times, serif;
   margin: 7px 10px 0 10px;
-  font-size: 3.8rem;
+  font-size: 3rem;
   font-weight: 900;
   transform: scaleY(1.2);
 }
@@ -163,8 +163,8 @@ img {
 .card__figcaption {
   background: rd;
   transform: scale(0.9, 1.7);
-  line-height: 37px;
-  font-size: 30px;
+  line-height: 28px;
+  font-size: 26px;
   font-weight: 650;
   font-family: "Times New Roman", Times, serif;
   text-align: center;
@@ -247,12 +247,12 @@ img {
   }
 
   .card img {
-    width: 350px;
-    height: 350px;
+    width: 320px;
+    height: 320px;
   }
 
   .card__figcaption {
-    font-size: 33px;
+    font-size: 1.8rem;
   }
 
   .card__doa {
@@ -264,9 +264,10 @@ img {
     margin: 2rem auto;
   }
 
-  #franky {
+  /* #franky {
     height: 590px;
-  }
+  }*/
+
   .header__nav {
     padding: 0 3rem;
   }
